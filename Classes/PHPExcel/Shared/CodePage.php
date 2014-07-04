@@ -74,6 +74,7 @@ class PHPExcel_Shared_CodePage
 			case 1250:	return 'CP1250';			break;	//	ANSI Latin II (Central European)
 			case 1251:	return 'CP1251';			break;	//	ANSI Cyrillic
 			case 0:		//	CodePage is not always correctly set when the xls file was saved by Apple's Numbers program
+			case 21010:
 			case 1252:	return 'CP1252';			break;	//	ANSI Latin I (BIFF4-BIFF7)
 			case 1253:	return 'CP1253';			break;	//	ANSI Greek
 			case 1254:	return 'CP1254';			break;	//	ANSI Turkish
